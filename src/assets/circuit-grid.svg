@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900">
+  <g fill="none" stroke="#ff6a32" stroke-width="2" opacity=".38">
+    <path d="M0 80h140l35-35h250l30 30h210M0 125h95l28-28h230l27 27h200M1150 35h100l38 38h152M1080 100h170l38 38h152"/>
+    <path d="M0 760h180l32 32h240M980 820h150l35-35h275M110 900v-50l40-40h220"/>
+  </g>
+  <g fill="none" stroke="#4bc9ff" stroke-width="2" opacity=".75">
+    <path d="M0 650l80-80h80M1360 170l80-80M1280 900l90-90h70M0 210l40-40"/>
+  </g>
+</svg>
