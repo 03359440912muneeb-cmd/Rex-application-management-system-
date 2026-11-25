@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.20)
+project(rex_native_engine_tests LANGUAGES CXX)
+set(CMAKE_CXX_STANDARD 20)
+add_executable(rex_native_engine_tests tests/native_engine_test.cpp ../src/native_engine.cpp)
+target_include_directories(rex_native_engine_tests PRIVATE ../include)
+add_test(NAME native_engine_test COMMAND rex_native_engine_tests)

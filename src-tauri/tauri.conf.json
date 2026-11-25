@@ -1,0 +1,21 @@
+[build]
+beforeDevCommand = "npm run dev"
+beforeBuildCommand = "npm run build"
+devPath = "http://localhost:1420"
+distDir = "../dist"
+
+[package]
+productName = "Rex Application Manager"
+version = "0.1.0"
+
+[tauri.bundle]
+active = true
+identifier = "io.rex.applicationmanager"
+longDescription = "A desktop application manager for MX Linux."
+shortDescription = "Application manager for MX Linux"
+
+[tauri.allowlist]
+all = false
+
+[tauri.allowlist.shell]
+all = false

@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.20)
+project(rex_native_engine LANGUAGES CXX)
+set(CMAKE_CXX_STANDARD 20)
+add_library(rex_native_engine STATIC src/native_engine.cpp)
+target_include_directories(rex_native_engine PUBLIC include)
